@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="XcReVu:=+~d/[dF{53RD">播放</variable></variables><block type="pxt-on-start" id="r9;3yNnCZS))/`,^(1I8" x="19" y="-126"></block><block type="device_forever" id="tW_`1VQ1B=sM}jO=4`.@" x="348" y="-133"><statement name="HANDLER"><block type="controls_if" id="EDxO-,GLr|}$XkTD64~@"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="variables_get" id="u#CKGX[~036zCFfan5~@"><field name="VAR" id="XcReVu:=+~d/[dF{53RD">播放</field></block></value><statement name="DO0"><block type="device_show_leds" id="XUY!d%O%Q+SsUeuRG0;P"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="wIdl^n!qm]:[tQ.wh:TM"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        # . # . # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="0%RJX$E!?Pg%Eu3[%unM"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . # # # . 
+        # # # # #
+        `</field></block></next></block></next></block></statement><statement name="ELSE"><block type="basic_show_icon" id="%^Ev`k4:d7xV*DaDW=jD"><field name="i">IconNames.EigthNote</field></block></statement></block></statement></block><block type="device_button_event" id="0j_T5!m`M)1Y`Dca{z(+" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="variables_set" id="DRno8U%5,E[lb@y!(ZP@"><field name="VAR" id="XcReVu:=+~d/[dF{53RD">播放</field><value name="VALUE"><shadow type="math_number" id="bZr(]o=|u#mty7wLFoL9"><field name="NUM">1</field></shadow></value><next><block type="device_start_melody" id=",veizYu}v0qNkAM[7x2x"><field name="options">MelodyOptions.Once</field><value name="melody"><block type="device_builtin_melody" id="1}/v(1__M.OfmvbyCBsP"><field name="melody">Melodies.Chase</field></block></value></block></next></block></statement></block><block type="device_button_event" id="oj[9V2/bvxYJpgXJF^{v" x="-6" y="187"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="variables_set" id="y#U3#{r5r#zI4x8p157$"><field name="VAR" id="XcReVu:=+~d/[dF{53RD">播放</field><value name="VALUE"><shadow type="math_number" id="2Z|g_UNSQbAKo8q~.DZr"><field name="NUM">0</field></shadow></value><next><block type="device_stop_melody" id="k{;Y$4[e)e!Id4`(o1$1"><field name="options">MelodyStopOptions.All</field></block></next></block></statement></block></xml>
